@@ -286,7 +286,6 @@ body{
                 min-width: 200px; 
                 display: inline-block;
                 background-color: transparent;
-                height: 48px;
                 @include breakpoint(medium down){
                     margin-bottom: 15px;
                     margin-left: 0;
