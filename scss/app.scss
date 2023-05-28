@@ -230,6 +230,28 @@ body{
                 line-height: 33px;
             }
         }
+        .audioBox{
+          .playAudio{
+            color: $white;
+            font-weight: 700;
+            background-color: #F81D09;
+            border-radius: 50px;
+            padding: 1em 3em;
+            margin-left: 35px;
+            height: -webkit-fill-available;
+            cursor: pointer;
+            height: 48px;
+            @include breakpoint(medium down){
+                margin-left: 0;
+            }
+          }
+          button{
+            cursor: pointer;
+          }
+          img{
+            width: 10%;
+          }
+        }
         .addressRow{
             margin-top: 40px;
             display: flex;
@@ -286,6 +308,7 @@ body{
                 min-width: 200px; 
                 display: inline-block;
                 background-color: transparent;
+                height: 58px;
                 @include breakpoint(medium down){
                     margin-bottom: 15px;
                     margin-left: 0;

@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shenron LP</title>
+    <title>Shenron</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+
     <audio autoplay preload='auto' loop id="myAudio">
       <source src="img/shenron-token.mp3" type="audio/mp3" >
     </audio>
@@ -50,7 +51,12 @@
             <h1>WELCOME TO SHENRON <span>(<img src="img/banner-text.png" alt="">)</span></h1>
             <h4>THE ETERNAL DRAGON</h4>
             <p>Explore the mystical world of Shenron, the magnificent dragon of Dragon Ball fame.</p>
-            
+            <div class="audioBox">
+              <button onclick="play()" class="playAudio">Summon Me</button>
+              <audio autoplay preload='auto' loop id="audio">
+                <source src="img/shenron-token.mp3" type="audio/mp3" >
+              </audio>
+            </div>
           </div>
           <img src="img/banner.png" alt="" class="banner">
             <div class="bannerText">
@@ -278,6 +284,12 @@
           }, 1000);
       },);
     }
+    </script>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
     </script>
   </body>
 </html>
