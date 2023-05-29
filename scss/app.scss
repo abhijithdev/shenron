@@ -449,6 +449,51 @@ body{
         }
     }
 }
+#secondBanner{
+  background-image: url(../img/secondBanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0;
+  position: relative;
+  z-index: 9;
+  .kamiContent{
+    @include breakpoint(medium down){
+      text-align: center;
+      margin-top: 10px;
+    }
+    p{
+      font-size: 25px;
+      line-height: 45px;
+    }
+  }
+}
+#dragonBalls{
+  padding: 50px 0;
+  position: relative;
+  z-index: 9;
+  .dragonBallTitle{
+    h2{
+      font-weight: 700;
+    }
+    p{
+      font-size: 25px;
+      line-height: 45px;
+    }
+  }
+  .dragonBallSLiderWrapper{
+    margin-top: 50px;
+    .dragonBallSlider{
+      img{
+        margin-bottom: 15px;
+      }
+      h6{
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
 #taxStructure{
     position: relative;
     z-index: 9;
