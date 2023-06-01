@@ -395,6 +395,61 @@ body{
             }
         }
     }
+    .howtoBuyShen{
+      margin-top: 40px;
+      h2{
+        font-weight: 700;
+      }
+      .stepsList{
+        margin-top: 25px;
+        .singleStep{
+          h6{
+            color: #FFA409;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+          }
+          .image{
+            text-align: center;
+            padding: 0.5em;
+            margin-bottom: 20px;
+            background-color: #454545;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         
+          }
+          p{
+            font-size: 19px;
+          }
+        }
+        .howtobuyslider{
+          .singleStep{
+            h6{
+              color: #FFA409;
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 20px;
+            }
+            .image{
+              text-align: center;
+              padding: 0.5em;
+              margin-bottom: 20px;
+              background-color: #454545;
+              border-radius: 24px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+           
+            }
+            p{
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
     .shenDataRow{
         padding: 75px 0;
         border-bottom: 2px solid $white;
@@ -484,6 +539,11 @@ body{
   .dragonBallSLiderWrapper{
     margin-top: 50px;
     .dragonBallSlider{
+      .dragonSingleSlider{
+        background-color: #454545;
+        border-radius: 24px;
+        padding: 2em 0;
+      }
       img{
         margin-bottom: 15px;
       }
@@ -566,6 +626,9 @@ body{
         margin-top: 50px;
         .singleTax{
             margin-bottom: 50px;
+            border-radius: 24px;
+            padding: 2em;
+            background-color: #454545;
             .heading{
                 margin-bottom: 20px;
                 img{
